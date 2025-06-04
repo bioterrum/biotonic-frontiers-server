@@ -1,0 +1,10 @@
+.env
+.sqlx
+.github
+
+*.lock
+*.log
+*.txt
+
+Library/
+target/
