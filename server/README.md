@@ -51,13 +51,6 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 source ~/.cargo/env
 ```
 
-**Node.js (Next.js):**
-
-```bash
-curl -fsSL https://deb.nodesource.com/setup_22.x | sudo bash -
-sudo apt-get install -y nodejs
-```
-
 **`sqlx-cli` (Postgres):**
 
 ```bash
