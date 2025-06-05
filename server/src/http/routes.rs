@@ -21,5 +21,6 @@ pub fn init_routes(cfg: &mut web::ServiceConfig) {
             .configure(http::health::init_routes)
             .configure(http::land::init_routes)
             .configure(http::aptos::init_routes)
+            .configure(http::tx::init_routes)
     );
 }

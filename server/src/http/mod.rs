@@ -14,3 +14,4 @@ pub mod routes;
 pub mod shop;
 pub mod structures;
 pub mod trades;
+pub mod tx;

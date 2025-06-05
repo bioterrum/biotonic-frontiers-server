@@ -20,6 +20,7 @@ deadpool-postgres = "0.14"
 
 # Async runtime
 tokio = { version = "1", features = ["full"] }
+tokio-retry = "0.3"
 
 # Redis
 redis = { version = "0.30", features = ["tokio-comp", "aio"] }
@@ -35,6 +36,7 @@ dashmap = "6"
 once_cell = "1"
 rand = "0.9"
 anyhow = "1"
+tracing = "0.1"
 
 # JWT support
 jsonwebtoken = "9"
